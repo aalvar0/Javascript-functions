@@ -7,7 +7,12 @@
  * output:
  */
 
-// isTypeOf.js
+/**
+ *
+ * @param {string|number|boolean|Array} value
+ * @param {boolean} type
+ * @returns
+ */
 function isTypeOf(value, type) {
   if (type === "array") {
     return Array.isArray(value);

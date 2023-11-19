@@ -4,6 +4,11 @@
  * output: number
  */
 
+/**
+ * 
+ * @param {string} sentence 
+ * @returns {number}
+ */
 function getTotalWordsFromString(sentence) {
     const trimmedSentence = sentence.trim();
   

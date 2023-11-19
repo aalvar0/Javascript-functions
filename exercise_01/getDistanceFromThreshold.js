@@ -5,7 +5,6 @@
  * @returns {number} - The difference between the threshold and the value.
  */
 function getDistanceFromThreshold(value, threshold) {
-    return threshold - value;
+  return threshold - value;
 }
- export default
- getDistanceFromThreshold
+export default getDistanceFromThreshold;

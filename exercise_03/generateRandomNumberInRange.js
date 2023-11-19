@@ -4,6 +4,11 @@
  * output: number
  */
 
+/**
+ * 
+ * @param {number} limit 
+ * @returns {number}
+ */
 function generateRandomNumberInRange(limit) {
     const randomNumber = Math.floor(Math.random() * (limit + 1));
     return randomNumber;
