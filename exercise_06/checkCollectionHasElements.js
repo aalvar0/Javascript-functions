@@ -6,7 +6,7 @@
 
 /**
  * get length of a collection and check whether it is empty or not
- * @param {Array} collection 
+ * @param {Array} collection
  * @returns {boolean}
  */
 function checkCollectionHasElements(collection) {

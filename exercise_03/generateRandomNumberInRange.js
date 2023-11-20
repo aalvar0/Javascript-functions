@@ -6,14 +6,12 @@
 
 /**
  * Generate random number depending on a limit
- * @param {number} limit 
+ * @param {number} limit
  * @returns {number}
  */
 function generateRandomNumberInRange(limit) {
-    const randomNumber = Math.floor(Math.random() * (limit + 1));
-    return randomNumber;
-  }
-  
+  const randomNumber = Math.floor(Math.random() * (limit + 1));
+  return randomNumber;
+}
 
-  export default generateRandomNumberInRange;
-  
+export default generateRandomNumberInRange;
