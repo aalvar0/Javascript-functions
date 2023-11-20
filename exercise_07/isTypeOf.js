@@ -8,7 +8,7 @@
  */
 
 /**
- *
+ * performs a specific operation based on the provided value and type
  * @param {string|number|boolean|Array} value
  * @param {boolean} type
  * @returns

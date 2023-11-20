@@ -5,7 +5,7 @@
  */
 
 /**
- * 
+ * Generate random number depending on a limit
  * @param {number} limit 
  * @returns {number}
  */

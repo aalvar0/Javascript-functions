@@ -5,7 +5,7 @@
  */
 
 /**
- * 
+ *  Raise one number to power of two
  * @param {string} sentence 
  * @returns {number}
  */

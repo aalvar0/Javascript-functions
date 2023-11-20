@@ -5,10 +5,10 @@
  * output: boolean
  */
 /**
- * 
+ * Check whether one number is greater than a given number
  * @param {number} value 
  * @param {number} threshold 
- * @returns {number}
+ * @returns {boolean}
  */
 function isGreaterThan(value, threshold) {
   return value > threshold;
