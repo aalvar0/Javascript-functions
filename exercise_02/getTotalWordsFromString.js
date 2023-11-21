@@ -3,3 +3,20 @@
  * input: string (sentence)
  * output: number
  */
+
+/**
+ *  Raise one number to power of two
+ * @param {string} sentence
+ * @returns {number}
+ */
+function getTotalWordsFromString(sentence) {
+  const trimmedSentence = sentence.trim();
+
+  if (trimmedSentence.length === 0) {
+    return 0;
+  }
+
+  const wordsArray = trimmedSentence.split(/\s+/);
+  return wordsArray.length;
+}
+export default getTotalWordsFromString;
