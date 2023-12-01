@@ -1,7 +1,7 @@
 import formatStringByWordsLength from "./formatStringByWordsLength.js";
 
 const result1 = formatStringByWordsLength(
-  "This is a long, long, long sentence.",
+  "This is a long, long, long sentence."
 );
 console.log(result1);
 
