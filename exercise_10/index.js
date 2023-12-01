@@ -1,7 +1,7 @@
-import transformCollectionToString from './transformCollectionToString.js';
+import transformCollectionToString from "./transformCollectionToString.js";
 
-const case1 = ['apple', 'grapes', 'strawberries'];
-const case2 = [];
+const notEmptyCollection = ["apple", "grapes", "strawberries"];
+console.log(transformCollectionToString(notEmptyCollection)); // apple | grapes | strawberries
 
-console.log(transformCollectionToString(case1));
-console.log(transformCollectionToString(case2)); 
+const emptyCollection = [];
+console.log(transformCollectionToString(emptyCollection)); // " "
