@@ -18,19 +18,15 @@ import checkCollectionHasElements from "../exercise_06/checkCollectionHasElement
  * input: []
  * output: ""
  */
+
 /**
- *
- * @param {*} collection
- * @returns
+ * Transforms a collection into a string.
+ * @param {array} collection
+ * @returns {string}
  */
-
 const transformCollectionToString = function (collection) {
-  const arrayLength = checkCollectionHasElements(collection);
-  let message = "";
-  if (arrayLength === true) {
-    message = collection.join(" | ");
-  }
-  return message;
-};
+  const hasElements = checkCollectionHasElements(collection);
 
+  return hasElements ? collection.join(" | ") : "";
+};
 export default transformCollectionToString;
